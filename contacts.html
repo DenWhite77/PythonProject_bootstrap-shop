@@ -22,21 +22,46 @@
 
             <div class="navbar-nav">
                 <a class="nav-link" href="index.html">Главная</a>
-                <a class="nav-link active" href="catalog.html">Каталог</a>
+                <a class="nav-link" href="catalog.html">Каталог</a>
                 <a class="nav-link" href="category.html">Категории</a>
                 <a class="nav-link" href="orders.html">Заказы</a>
-                <a class="nav-link" href="contacts.html">Контакты</a>
+                <a class="nav-link active" href="contacts.html">Контакты</a>
             </div>
         </div>
     </nav>
 
-    <header>
+<main class="container py-4">
+
+    <header class="mb-4">
         <h1>Контакты</h1>
+        <p class="lead">Свяжитесь с нами</p>
     </header>
 
-    <main>
-        <p>Здесь будет контактная информация.</p>
-    </main>
+    <form>
+
+        <div class="mb-3">
+            <label for="name" class="form-label">Ваше имя</label>
+            <input type="text" class="form-control" id="name" placeholder="Введите имя">
+        </div>
+
+        <div class="mb-3">
+            <label for="email" class="form-label">Электронная почта</label>
+            <input type="email" class="form-control" id="email" placeholder="Введите email">
+        </div>
+
+        <div class="mb-3">
+            <label for="message" class="form-label">Сообщение</label>
+            <textarea class="form-control" id="message" rows="5"
+                      placeholder="Введите сообщение"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+            Отправить
+        </button>
+
+    </form>
+
+</main>
 
     <footer>
         <p>© 2026 Bootstrap Project</p>
