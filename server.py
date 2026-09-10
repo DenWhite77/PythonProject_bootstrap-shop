@@ -75,8 +75,9 @@ class MyServer(BaseHTTPRequestHandler):
             )
 
 
-server = HTTPServer((HOST, PORT), MyServer)
+if __name__ == "__main__":
+    server = HTTPServer((HOST, PORT), MyServer)
 
-print(f"Сервер запущен: http://{HOST}:{PORT}")
+    print(f"Сервер запущен: http://{HOST}:{PORT}")
 
-server.serve_forever()
+    server.serve_forever()
