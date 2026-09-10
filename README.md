@@ -1,3 +1,5 @@
+[![Tests](https://github.com/DenWhite77/PythonProject_bootstrap-shop/actions/workflows/tests.yml/badge.svg?branch=develop)](https://github.com/DenWhite77/PythonProject_bootstrap-shop/actions/workflows/tests.yml)
+
 # Bootstrap Shop
 
 Проект интернет-магазина, созданный в рамках обучения веб-разработке и работе с Python.
